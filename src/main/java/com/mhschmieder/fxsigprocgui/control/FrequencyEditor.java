@@ -83,7 +83,7 @@ public final class FrequencyEditor extends DoubleEditor {
                             final int pNumberOfDecimalPlaces ) {
         // Always call the superclass constructor first!
         // NOTE: We use up to one decimal place of precision for displaying
-        // frequency, and four decimal places for parsing frequency.
+        //  frequency, and four decimal places for parsing frequency.
         super( pClientProperties,
                initialText,
                tooltipText,

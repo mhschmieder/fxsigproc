@@ -75,7 +75,7 @@ public final class GainEditor extends DoubleEditor {
         // key filter and re-add it here so that numbers get parsed correctly
         // vs. throwing exceptions and defaulting to previous values.
         // NOTE: If defaulting to negative numbers, we must also re-attach the
-        // positive sign (if not present) if a non-negative number is detected.
+        //  positive sign (if not present) if a non-negative number is detected.
         // TODO: Find a way to exempt zero values from prepending the "+" sign?
         // TODO: Test to see if the new condition on value > 0 fixes this.
         final String decoratedText = _defaultToNegativeGain && ( savedValue > 0.0d )
@@ -92,12 +92,11 @@ public final class GainEditor extends DoubleEditor {
         // key filter and then must strip it here so that numbers get parsed
         // correctly vs. throwing exceptions and defaulting to previous values.
         // NOTE: If defaulting to negative numbers, we must also add the
-        // negative sign when the positive sign is not explicitly typed.
+        //  negative sign when the positive sign is not explicitly typed.
         final String undecoratedText = _defaultToNegativeGain
             ? StringUtilities.defaultToNegativeNumber( savedText )
             : StringUtilities.stripPositiveSign( savedText );
 
         return undecoratedText;
     }
-
 }

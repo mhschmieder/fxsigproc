@@ -63,7 +63,7 @@ public final class ButterworthFilterSlopeSelector extends IntegerSelector {
         // NOTE: Groupings are turned off, and we force US locale for now,
         // due to specifics about the implementation of the pattern-matcher.
         // TODO: Alternately, cast to DecimalFormat, query the decimal and
-        // grouping separator chars, and pass them to pattern-matcher?
+        //  grouping separator chars, and pass them to pattern-matcher?
         _numberFormat.setGroupingUsed( false );
 
         // Make sure the list displays all items without scrolling.
@@ -99,5 +99,4 @@ public final class ButterworthFilterSlopeSelector extends IntegerSelector {
         // Replace the entire list, and re-assert the current selection.
         updateValues( filterSlopes, defaultFilterSlope, true );
     }
-
 }

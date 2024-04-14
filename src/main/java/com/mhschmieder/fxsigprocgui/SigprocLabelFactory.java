@@ -30,6 +30,8 @@
  */
 package com.mhschmieder.fxsigprocgui;
 
+import com.mhschmieder.sigproctoolkit.filter.ElectronicFilterType;
+
 public class SigprocLabelFactory {
 
     private SigprocLabelFactory() {
@@ -65,5 +67,42 @@ public class SigprocLabelFactory {
 
     public static final String getSlopeLabel() {
         return "Slope";
+    }
+
+    public static final String getEqualizationLabel() {
+        return "Equalization";
+    }
+
+    public static final String getEqualizationLabelAbbreviated() {
+        return "EQ";
+    }
+
+    public static final String getParametricLabel() {
+        return "Parametric";
+    }
+
+    public static final String getHighLowPassFilterSlopeTooltip( final ElectronicFilterType filterType ) {
+        switch ( filterType ) {
+        case HIGH_LOW_PASS:
+            return "High/Low Pass Filter Slope";
+        case HIGH_PASS:
+            return "High Pass Filter Slope";
+        case LOW_PASS:
+            return "Low Pass Filter Slope";
+        default:
+            return "";
+        }
+    }
+
+    public static final String getHighLowPassLabel() {
+        return "High/Low Pass";
+    }
+
+    public static final String getHighPassLabel() {
+        return "High Pass";
+    }
+
+    public static final String getLowPassLabel() {
+        return "Low Pass";
     }
 }
