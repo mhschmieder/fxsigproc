@@ -1,7 +1,7 @@
 /**
  * MIT License
  *
- * Copyright (c) 2020, 2024 Mark Schmieder
+ * Copyright (c) 2020, 2025 Mark Schmieder
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -110,7 +110,8 @@ public class FrequencyEditorTableCell< RT, VT > extends DoubleEditorTableCell< R
      */
     @Override
     protected TextField makeTextField() {
-        return SigprocControlFactory.getFrequencyEditor( 
+        final FrequencyEditor frequencyEditor = SigprocControlFactory
+                .getFrequencyEditor( 
             clientProperties, 
             "", 
             " Hz", 
@@ -119,6 +120,13 @@ public class FrequencyEditorTableCell< RT, VT > extends DoubleEditorTableCell< R
             0.0d,
             precisionCutoffFrequencyHz,
             numberOfDecimalPlaces );
+
+        // In the table cell context, as each row may have different
+        // restrictions, it is best to say "N/A" if NaN is encountered or other
+        // cues that this cell should be uneditable and maybe disabled as well.
+        frequencyEditor.setErrorText( "N/A" );
+        
+        return frequencyEditor;
     }
 
     public double adjustPrecision( final double doubleValue ) {
