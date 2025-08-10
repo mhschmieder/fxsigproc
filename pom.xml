@@ -8,7 +8,7 @@
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>FxSigProcToolkit</name>
+    <name>fxsigprocgui</name>
     <url>https://github.com/mhschmieder/fxsigprocgui</url>
     <description>Signal processing and DSP JavaFX GUI classes for Java.</description>
 
