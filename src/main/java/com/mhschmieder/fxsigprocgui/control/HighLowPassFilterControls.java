@@ -1,7 +1,7 @@
-/**
+/*
  * MIT License
  *
- * Copyright (c) 2020, 2024 Mark Schmieder
+ * Copyright (c) 2020, 2025 Mark Schmieder
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -34,7 +34,6 @@ import com.mhschmieder.commonstoolkit.util.ClientProperties;
 import com.mhschmieder.fxguitoolkit.GuiUtilities;
 import com.mhschmieder.fxsigprocgui.SigprocLabelFactory;
 import com.mhschmieder.sigproctoolkit.filter.ElectronicFilterType;
-
 import javafx.geometry.HPos;
 import javafx.scene.control.Label;
 import javafx.scene.control.ToggleButton;
@@ -57,7 +56,7 @@ public final class HighLowPassFilterControls {
                                       final double minimumFrequencyHz,
                                       final double maximumFrequencyHz,
                                       final double initialFrequencyHz ) {
-        final String filterTypeName = filterType.toPresentationString();
+        final String filterTypeName = filterType.label();
         _highLowPassFilterLabel = GuiUtilities.getControlLabel( filterTypeName );
         final String highLowPassFilterSlopeTooltipText = SigprocLabelFactory
                 .getHighLowPassFilterSlopeTooltip( filterType );

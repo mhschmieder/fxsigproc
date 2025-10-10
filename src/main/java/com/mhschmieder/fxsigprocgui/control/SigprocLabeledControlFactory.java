@@ -31,7 +31,6 @@
 package com.mhschmieder.fxsigprocgui.control;
 
 import com.mhschmieder.fxguitoolkit.control.XToggleButton;
-
 import javafx.scene.control.OverrunStyle;
 import javafx.scene.control.ToggleButton;
 

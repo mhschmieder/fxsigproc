@@ -31,7 +31,6 @@
 package com.mhschmieder.fxsigprocgui.control;
 
 import com.mhschmieder.commonstoolkit.util.ClientProperties;
-
 import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.GridPane;
 

@@ -30,17 +30,15 @@
  */
 package com.mhschmieder.fxsigprocgui.control.cell;
 
-import java.util.List;
-
-import org.apache.commons.math3.util.FastMath;
-
 import com.mhschmieder.commonstoolkit.util.ClientProperties;
 import com.mhschmieder.fxguitoolkit.control.cell.DoubleEditorTableCell;
 import com.mhschmieder.fxsigprocgui.control.FrequencyEditor;
 import com.mhschmieder.fxsigprocgui.control.SigprocControlFactory;
 import com.mhschmieder.mathtoolkit.MathUtilities;
-
 import javafx.scene.control.TextField;
+import org.apache.commons.math3.util.FastMath;
+
+import java.util.List;
 
 public class FrequencyEditorTableCell< RT, VT > extends DoubleEditorTableCell< RT, Double > {
     

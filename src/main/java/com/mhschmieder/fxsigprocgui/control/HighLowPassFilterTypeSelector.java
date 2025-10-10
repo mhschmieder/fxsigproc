@@ -34,7 +34,6 @@ import com.mhschmieder.commonstoolkit.util.ClientProperties;
 import com.mhschmieder.fxguitoolkit.control.TextSelector;
 import com.mhschmieder.sigproctoolkit.filter.ElectronicFilterType;
 import com.mhschmieder.sigproctoolkit.filter.HighLowPassFilterType;
-
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

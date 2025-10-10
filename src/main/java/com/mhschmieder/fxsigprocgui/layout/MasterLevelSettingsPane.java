@@ -35,7 +35,6 @@ import com.mhschmieder.fxguitoolkit.GuiUtilities;
 import com.mhschmieder.fxsigprocgui.SigprocLabelFactory;
 import com.mhschmieder.fxsigprocgui.control.MasterLevelSettingsControls;
 import com.mhschmieder.fxsigprocgui.model.MasterLevelSettings;
-
 import javafx.geometry.HPos;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
