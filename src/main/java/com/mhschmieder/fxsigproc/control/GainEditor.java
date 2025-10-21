@@ -30,9 +30,9 @@
  */
 package com.mhschmieder.fxsigproc.control;
 
-import com.mhschmieder.commonstoolkit.lang.StringUtilities;
-import com.mhschmieder.commonstoolkit.util.ClientProperties;
 import com.mhschmieder.fxguitoolkit.control.DoubleEditor;
+import com.mhschmieder.jcommons.lang.StringUtilities;
+import com.mhschmieder.jcommons.util.ClientProperties;
 
 public final class GainEditor extends DoubleEditor {
 

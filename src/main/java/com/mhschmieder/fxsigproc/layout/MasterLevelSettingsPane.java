@@ -30,11 +30,11 @@
  */
 package com.mhschmieder.fxsigproc.layout;
 
-import com.mhschmieder.commonstoolkit.util.ClientProperties;
 import com.mhschmieder.fxguitoolkit.GuiUtilities;
 import com.mhschmieder.fxsigproc.SigprocLabelFactory;
 import com.mhschmieder.fxsigproc.control.MasterLevelSettingsControls;
 import com.mhschmieder.fxsigproc.model.MasterLevelSettings;
+import com.mhschmieder.jcommons.util.ClientProperties;
 import javafx.geometry.HPos;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;

@@ -30,11 +30,11 @@
  */
 package com.mhschmieder.fxsigproc.control.cell;
 
-import com.mhschmieder.commonstoolkit.util.ClientProperties;
 import com.mhschmieder.fxguitoolkit.control.cell.DoubleEditorTableCell;
 import com.mhschmieder.fxsigproc.control.FrequencyEditor;
 import com.mhschmieder.fxsigproc.control.SigprocControlFactory;
-import com.mhschmieder.mathtoolkit.MathUtilities;
+import com.mhschmieder.jcommons.util.ClientProperties;
+import com.mhschmieder.jmath.MathUtilities;
 import javafx.scene.control.TextField;
 import org.apache.commons.math3.util.FastMath;
 

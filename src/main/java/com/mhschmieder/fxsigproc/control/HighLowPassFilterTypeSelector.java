@@ -30,10 +30,10 @@
  */
 package com.mhschmieder.fxsigproc.control;
 
-import com.mhschmieder.commonstoolkit.util.ClientProperties;
 import com.mhschmieder.fxguitoolkit.control.TextSelector;
-import com.mhschmieder.sigproctoolkit.filter.ElectronicFilterType;
-import com.mhschmieder.sigproctoolkit.filter.HighLowPassFilterType;
+import com.mhschmieder.jcommons.util.ClientProperties;
+import com.mhschmieder.jsigproc.filter.ElectronicFilterType;
+import com.mhschmieder.jsigproc.filter.HighLowPassFilterType;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 

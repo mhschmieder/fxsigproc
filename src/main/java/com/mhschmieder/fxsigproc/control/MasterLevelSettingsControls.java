@@ -30,7 +30,7 @@
  */
 package com.mhschmieder.fxsigproc.control;
 
-import com.mhschmieder.commonstoolkit.util.ClientProperties;
+import com.mhschmieder.jcommons.util.ClientProperties;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.layout.GridPane;
 

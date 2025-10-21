@@ -30,7 +30,7 @@
  */
 package com.mhschmieder.fxsigproc;
 
-import com.mhschmieder.sigproctoolkit.filter.ElectronicFilterType;
+import com.mhschmieder.jsigproc.filter.ElectronicFilterType;
 
 public class SigprocLabelFactory {
 

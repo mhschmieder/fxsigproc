@@ -30,8 +30,8 @@
  */
 package com.mhschmieder.fxsigproc.control;
 
-import com.mhschmieder.commonstoolkit.util.ClientProperties;
 import com.mhschmieder.fxguitoolkit.control.DoubleEditor;
+import com.mhschmieder.jcommons.util.ClientProperties;
 import javafx.scene.control.ToggleButton;
 
 public final class ParametricFilterControls {

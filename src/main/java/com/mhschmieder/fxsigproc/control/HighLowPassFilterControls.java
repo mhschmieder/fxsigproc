@@ -30,10 +30,10 @@
  */
 package com.mhschmieder.fxsigproc.control;
 
-import com.mhschmieder.commonstoolkit.util.ClientProperties;
 import com.mhschmieder.fxguitoolkit.GuiUtilities;
 import com.mhschmieder.fxsigproc.SigprocLabelFactory;
-import com.mhschmieder.sigproctoolkit.filter.ElectronicFilterType;
+import com.mhschmieder.jcommons.util.ClientProperties;
+import com.mhschmieder.jsigproc.filter.ElectronicFilterType;
 import javafx.geometry.HPos;
 import javafx.scene.control.Label;
 import javafx.scene.control.ToggleButton;

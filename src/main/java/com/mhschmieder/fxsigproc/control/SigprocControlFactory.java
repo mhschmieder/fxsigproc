@@ -30,8 +30,8 @@
  */
 package com.mhschmieder.fxsigproc.control;
 
-import com.mhschmieder.commonstoolkit.util.ClientProperties;
 import com.mhschmieder.fxguitoolkit.control.DoubleEditor;
+import com.mhschmieder.jcommons.util.ClientProperties;
 
 /**
  * This is a utility class for making custom controls for Signal Processing.

@@ -30,9 +30,9 @@
  */
 package com.mhschmieder.fxsigproc.action;
 
-import com.mhschmieder.commonstoolkit.util.ClientProperties;
 import com.mhschmieder.fxguitoolkit.action.ActionFactory;
 import com.mhschmieder.fxguitoolkit.action.XAction;
+import com.mhschmieder.jcommons.util.ClientProperties;
 
 public class SigprocLabeledActionFactory {
 
