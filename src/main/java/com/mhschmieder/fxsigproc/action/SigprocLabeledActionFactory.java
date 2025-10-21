@@ -1,4 +1,4 @@
-/**
+/*
  * MIT License
  *
  * Copyright (c) 2020, 2025 Mark Schmieder
@@ -21,14 +21,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file is part of the FxSigProcGui Library
+ * This file is part of the FxSigProc Library
  *
  * You should have received a copy of the MIT License along with the
- * FxSigProcGui Library. If not, see <https://opensource.org/licenses/MIT>.
+ * FxSigProc Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/fxsigprocgui
+ * Project: https://github.com/mhschmieder/fxsigproc
  */
-package com.mhschmieder.fxsigprocgui.action;
+package com.mhschmieder.fxsigproc.action;
 
 import com.mhschmieder.commonstoolkit.util.ClientProperties;
 import com.mhschmieder.fxguitoolkit.action.ActionFactory;
@@ -36,7 +36,8 @@ import com.mhschmieder.fxguitoolkit.action.XAction;
 
 public class SigprocLabeledActionFactory {
 
-    public static final String BUNDLE_NAME = "com.mhschmieder.fxsigprocgui.action.SigprocActionLabels";
+    // NOTE: We must substitute "." for resource directory tree delimiters.
+    public static final String BUNDLE_NAME = "properties.SigprocActionLabels";
 
     /**
      * The default constructor is disabled, as this is a static factory class.

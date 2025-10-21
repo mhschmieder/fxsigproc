@@ -21,14 +21,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file is part of the FxSigProcGui Library
+ * This file is part of the FxSigProc Library
  *
  * You should have received a copy of the MIT License along with the
- * FxSigProcGui Library. If not, see <https://opensource.org/licenses/MIT>.
+ * FxSigProc Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/fxsigprocgui
+ * Project: https://github.com/mhschmieder/fxsigproc
  */
-package com.mhschmieder.fxsigprocgui.control;
+package com.mhschmieder.fxsigproc.control;
 
 import com.mhschmieder.commonstoolkit.util.ClientProperties;
 import com.mhschmieder.fxguitoolkit.control.TextSelector;

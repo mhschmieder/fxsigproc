@@ -1,7 +1,7 @@
-/**
+/*
  * MIT License
  *
- * Copyright (c) 2020, 2024 Mark Schmieder
+ * Copyright (c) 2020, 2025 Mark Schmieder
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -21,14 +21,14 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  *
- * This file is part of the FxSigProcGui Library
+ * This file is part of the FxSigProc Library
  *
  * You should have received a copy of the MIT License along with the
- * FxSigProcGui Library. If not, see <https://opensource.org/licenses/MIT>.
+ * FxSigProc Library. If not, see <https://opensource.org/licenses/MIT>.
  *
- * Project: https://github.com/mhschmieder/fxsigprocgui
+ * Project: https://github.com/mhschmieder/fxsigproc
  */
-package com.mhschmieder.fxsigprocgui.control;
+package com.mhschmieder.fxsigproc.control;
 
 import com.mhschmieder.fxguitoolkit.control.XToggleButton;
 import javafx.scene.control.OverrunStyle;
@@ -37,8 +37,7 @@ import javafx.scene.control.ToggleButton;
 public class SigprocLabeledControlFactory {
 
     // NOTE: We must substitute "." for resource directory tree delimiters.
-    @SuppressWarnings("nls") public static final String BUNDLE_NAME =
-                                                                    "properties.SigprocActionLabels";
+    public static final String BUNDLE_NAME = "properties.SigprocActionLabels";
 
     /**
      * The default constructor is disabled, as this is a static factory class.

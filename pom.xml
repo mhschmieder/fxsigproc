@@ -4,12 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mhschmieder</groupId>
-    <artifactId>fxsigprocgui</artifactId>
+    <artifactId>fxsigproc</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>fxsigprocgui</name>
-    <url>https://github.com/mhschmieder/fxsigprocgui</url>
+    <name>fxsigproc</name>
+    <url>https://github.com/mhschmieder/fxsigproc</url>
     <description>Signal processing and DSP JavaFX GUI classes for Java.</description>
 
     <licenses>
@@ -21,9 +21,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/mhschmieder/fxsigprocgui</url>
-        <connection>scm:git:git://github.com/mhschmieder/fxsigprocgui.git</connection>
-        <developerConnection>scm:git:git@github.com:mhschmieder/fxsigprocgui.git</developerConnection>
+        <url>https://github.com/mhschmieder/fxsigproc</url>
+        <connection>scm:git:git://github.com/mhschmieder/fxsigproc.git</connection>
+        <developerConnection>scm:git:git@github.com:mhschmieder/fxsigproc.git</developerConnection>
     </scm>
 
     <developers>
