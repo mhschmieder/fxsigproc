@@ -30,7 +30,7 @@
  */
 package com.mhschmieder.fxsigproc.control;
 
-import com.mhschmieder.fxguitoolkit.control.XToggleButton;
+import com.mhschmieder.fxcontrols.control.XToggleButton;
 import javafx.scene.control.OverrunStyle;
 import javafx.scene.control.ToggleButton;
 

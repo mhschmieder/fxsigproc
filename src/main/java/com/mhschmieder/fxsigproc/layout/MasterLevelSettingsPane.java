@@ -30,7 +30,7 @@
  */
 package com.mhschmieder.fxsigproc.layout;
 
-import com.mhschmieder.fxguitoolkit.GuiUtilities;
+import com.mhschmieder.fxcontrols.GuiUtilities;
 import com.mhschmieder.fxsigproc.SigprocLabelFactory;
 import com.mhschmieder.fxsigproc.control.MasterLevelSettingsControls;
 import com.mhschmieder.fxsigproc.model.MasterLevelSettings;

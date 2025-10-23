@@ -30,7 +30,7 @@
  */
 package com.mhschmieder.fxsigproc.control;
 
-import com.mhschmieder.fxguitoolkit.control.IntegerSelector;
+import com.mhschmieder.fxcontrols.control.IntegerSelector;
 import com.mhschmieder.jcommons.util.ClientProperties;
 import com.mhschmieder.jsigproc.dsp.DigitalFilterUtilities;
 import javafx.collections.FXCollections;

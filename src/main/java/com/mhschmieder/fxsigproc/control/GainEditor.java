@@ -30,7 +30,7 @@
  */
 package com.mhschmieder.fxsigproc.control;
 
-import com.mhschmieder.fxguitoolkit.control.DoubleEditor;
+import com.mhschmieder.fxcontrols.control.DoubleEditor;
 import com.mhschmieder.jcommons.lang.StringUtilities;
 import com.mhschmieder.jcommons.util.ClientProperties;
 

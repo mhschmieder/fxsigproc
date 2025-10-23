@@ -30,7 +30,7 @@
  */
 package com.mhschmieder.fxsigproc.control.cell;
 
-import com.mhschmieder.fxguitoolkit.control.cell.DoubleEditorTableCell;
+import com.mhschmieder.fxcontrols.control.cell.DoubleEditorTableCell;
 import com.mhschmieder.fxsigproc.control.FrequencyEditor;
 import com.mhschmieder.fxsigproc.control.SigprocControlFactory;
 import com.mhschmieder.jcommons.util.ClientProperties;

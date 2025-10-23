@@ -30,7 +30,7 @@
  */
 package com.mhschmieder.fxsigproc.control;
 
-import com.mhschmieder.fxguitoolkit.control.TextSelector;
+import com.mhschmieder.fxcontrols.control.TextSelector;
 import com.mhschmieder.jcommons.util.ClientProperties;
 import com.mhschmieder.jsigproc.filter.ElectronicFilterType;
 import com.mhschmieder.jsigproc.filter.HighLowPassFilterType;
