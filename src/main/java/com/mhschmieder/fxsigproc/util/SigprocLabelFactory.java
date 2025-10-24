@@ -28,7 +28,7 @@
  *
  * Project: https://github.com/mhschmieder/fxsigproc
  */
-package com.mhschmieder.fxsigproc;
+package com.mhschmieder.fxsigproc.util;
 
 import com.mhschmieder.jsigproc.filter.ElectronicFilterType;
 

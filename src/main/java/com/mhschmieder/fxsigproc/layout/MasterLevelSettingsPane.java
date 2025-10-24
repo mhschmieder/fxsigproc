@@ -30,8 +30,8 @@
  */
 package com.mhschmieder.fxsigproc.layout;
 
-import com.mhschmieder.fxcontrols.GuiUtilities;
-import com.mhschmieder.fxsigproc.SigprocLabelFactory;
+import com.mhschmieder.fxgui.util.GuiUtilities;
+import com.mhschmieder.fxsigproc.util.SigprocLabelFactory;
 import com.mhschmieder.fxsigproc.control.MasterLevelSettingsControls;
 import com.mhschmieder.fxsigproc.model.MasterLevelSettings;
 import com.mhschmieder.jcommons.util.ClientProperties;
@@ -104,7 +104,7 @@ public final class MasterLevelSettingsPane extends BorderPane {
         _masterLevelSettingsGrid = new GridPane();
 
         // We center the column header labels to follow standard conventions.
-        final Label polarityLabel = GuiUtilities.getColumnHeader( 
+        final Label polarityLabel = GuiUtilities.getColumnHeader(
                 SigprocLabelFactory.getPolarityLabel() );
         final Label gainLabel = GuiUtilities.getColumnHeader( 
                 SigprocLabelFactory.getGainLabel() );

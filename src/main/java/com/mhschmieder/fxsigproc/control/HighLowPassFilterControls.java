@@ -31,7 +31,7 @@
 package com.mhschmieder.fxsigproc.control;
 
 import com.mhschmieder.fxcontrols.GuiUtilities;
-import com.mhschmieder.fxsigproc.SigprocLabelFactory;
+import com.mhschmieder.fxsigproc.util.SigprocLabelFactory;
 import com.mhschmieder.jcommons.util.ClientProperties;
 import com.mhschmieder.jsigproc.filter.ElectronicFilterType;
 import javafx.geometry.HPos;
