@@ -28,12 +28,12 @@
  *
  * Project: https://github.com/mhschmieder/fxsigproc
  */
-package com.mhschmieder.fxsigproc.layout;
+package com.mhschmieder.fxsigproccontrols.layout;
 
 import com.mhschmieder.fxgui.util.GuiUtilities;
-import com.mhschmieder.fxsigproc.util.SigprocLabelFactory;
-import com.mhschmieder.fxsigproc.control.MasterLevelSettingsControls;
-import com.mhschmieder.fxsigproc.model.MasterLevelSettings;
+import com.mhschmieder.fxsigproccontrols.control.MasterLevelSettingsControls;
+import com.mhschmieder.fxsigproccontrols.model.MasterLevelSettings;
+import com.mhschmieder.fxsigproccontrols.util.SigprocLabelFactory;
 import com.mhschmieder.jcommons.util.ClientProperties;
 import javafx.geometry.HPos;
 import javafx.geometry.Insets;

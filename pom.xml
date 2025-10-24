@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mhschmieder</groupId>
-    <artifactId>fxsigproc</artifactId>
+    <artifactId>fxsigproccontrols</artifactId>
     <version>0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>fxsigproc</name>
-    <url>https://github.com/mhschmieder/fxsigproc</url>
-    <description>Signal processing and DSP JavaFX GUI classes for Java.</description>
+    <name>fxsigproccontrols</name>
+    <url>https://github.com/mhschmieder/fxsigproccontrols</url>
+    <description>Signal processing and DSP JavaFX GUI controls for jsigproc.</description>
 
     <licenses>
         <license>
@@ -21,9 +21,9 @@
     </licenses>
 
     <scm>
-        <url>https://github.com/mhschmieder/fxsigproc</url>
-        <connection>scm:git:git://github.com/mhschmieder/fxsigproc.git</connection>
-        <developerConnection>scm:git:git@github.com:mhschmieder/fxsigproc.git</developerConnection>
+        <url>https://github.com/mhschmieder/fxsigproccontrols</url>
+        <connection>scm:git:git://github.com/mhschmieder/fxsigproccontrols.git</connection>
+        <developerConnection>scm:git:git@github.com:mhschmieder/fxsigproccontrols.git</developerConnection>
     </scm>
 
     <developers>
@@ -71,7 +71,7 @@
         </dependency>
         <dependency>
             <groupId>com.mhschmieder</groupId>
-            <artifactId>fxacoustics</artifactId>
+            <artifactId>fxacousticscontrols</artifactId>
             <version>0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

@@ -28,11 +28,11 @@
  *
  * Project: https://github.com/mhschmieder/fxsigproc
  */
-package com.mhschmieder.fxsigproc.control.cell;
+package com.mhschmieder.fxsigproccontrols.control.cell;
 
 import com.mhschmieder.fxcontrols.control.cell.DoubleEditorTableCell;
-import com.mhschmieder.fxsigproc.control.FrequencyEditor;
-import com.mhschmieder.fxsigproc.control.SigprocControlFactory;
+import com.mhschmieder.fxsigproccontrols.control.FrequencyEditor;
+import com.mhschmieder.fxsigproccontrols.control.SigprocControlFactory;
 import com.mhschmieder.jcommons.util.ClientProperties;
 import com.mhschmieder.jmath.MathUtilities;
 import javafx.scene.control.TextField;

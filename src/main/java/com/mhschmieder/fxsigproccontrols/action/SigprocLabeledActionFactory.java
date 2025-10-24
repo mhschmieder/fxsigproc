@@ -28,7 +28,7 @@
  *
  * Project: https://github.com/mhschmieder/fxsigproc
  */
-package com.mhschmieder.fxsigproc.action;
+package com.mhschmieder.fxsigproccontrols.action;
 
 import com.mhschmieder.fxcontrols.action.ActionFactory;
 import com.mhschmieder.fxcontrols.action.XAction;

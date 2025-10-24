@@ -36,4 +36,4 @@
  *
  * @author Mark Schmieder
  */
-package com.mhschmieder.fxsigproc;
+package com.mhschmieder.fxsigproccontrols;

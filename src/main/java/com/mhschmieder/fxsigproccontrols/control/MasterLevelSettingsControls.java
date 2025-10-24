@@ -28,7 +28,7 @@
  *
  * Project: https://github.com/mhschmieder/fxsigproc
  */
-package com.mhschmieder.fxsigproc.control;
+package com.mhschmieder.fxsigproccontrols.control;
 
 import com.mhschmieder.jcommons.util.ClientProperties;
 import javafx.scene.control.ToggleButton;

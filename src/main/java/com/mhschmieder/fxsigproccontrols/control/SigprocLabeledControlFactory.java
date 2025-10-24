@@ -28,7 +28,7 @@
  *
  * Project: https://github.com/mhschmieder/fxsigproc
  */
-package com.mhschmieder.fxsigproc.control;
+package com.mhschmieder.fxsigproccontrols.control;
 
 import com.mhschmieder.fxcontrols.control.XToggleButton;
 import javafx.scene.control.OverrunStyle;

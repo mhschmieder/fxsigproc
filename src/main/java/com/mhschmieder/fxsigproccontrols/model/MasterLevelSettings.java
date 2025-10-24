@@ -28,7 +28,7 @@
  *
  * Project: https://github.com/mhschmieder/fxsigproc
  */
-package com.mhschmieder.fxsigproc.model;
+package com.mhschmieder.fxsigproccontrols.model;
 
 import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.DoubleProperty;

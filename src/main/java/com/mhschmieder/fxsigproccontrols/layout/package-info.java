@@ -36,4 +36,4 @@
  *
  * @author Mark Schmieder
  */
-package com.mhschmieder.fxsigproc.layout;
+package com.mhschmieder.fxsigproccontrols.layout;
