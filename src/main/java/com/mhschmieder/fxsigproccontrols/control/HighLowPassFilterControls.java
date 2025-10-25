@@ -30,7 +30,7 @@
  */
 package com.mhschmieder.fxsigproccontrols.control;
 
-import com.mhschmieder.fxcontrols.GuiUtilities;
+import com.mhschmieder.fxcontrols.control.ControlUtilities;
 import com.mhschmieder.fxsigproccontrols.util.SigprocLabelFactory;
 import com.mhschmieder.jcommons.util.ClientProperties;
 import com.mhschmieder.jsigproc.filter.ElectronicFilterType;
@@ -57,7 +57,7 @@ public final class HighLowPassFilterControls {
                                       final double maximumFrequencyHz,
                                       final double initialFrequencyHz ) {
         final String filterTypeName = filterType.label();
-        _highLowPassFilterLabel = GuiUtilities.getControlLabel( filterTypeName );
+        _highLowPassFilterLabel = ControlUtilities.getControlLabel( filterTypeName );
         final String highLowPassFilterSlopeTooltipText = SigprocLabelFactory
                 .getHighLowPassFilterSlopeTooltip( filterType );
         _highLowPassFilterSelector =
@@ -67,7 +67,7 @@ public final class HighLowPassFilterControls {
                                                                       filterType,
                                                                       showHighOrderFilters );
 
-        _highLowPassCutoffFrequencyLabel = GuiUtilities.getControlLabel( 
+        _highLowPassCutoffFrequencyLabel = ControlUtilities.getControlLabel(
                 SigprocLabelFactory.getFrequencyLabel() );
         final String highLowPassCutoffFrequencyTooltip = filterTypeName + " Cutoff Frequency";
         _highLowPassCutoffFrequencyEditor = SigprocControlFactory
